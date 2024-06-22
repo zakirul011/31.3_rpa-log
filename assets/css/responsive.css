@@ -1,0 +1,123 @@
+/* All desktop. */
+@media (min-width: 768px) and (max-width: 1500px) {
+   h1 {font-size: 45px;}
+   h2 {font-size: 38px;}
+   h3 {font-size: 30px;}
+   h4 {font-size: 24px;}
+   h5 {font-size: 18px;}
+   h6 {font-size: 15px;}
+   body {
+      font-size: 15px;
+   }
+   .border-btn, .site-btn {
+      font-size: 15px;
+   }
+   p {
+      font-size: 16px;
+   }
+
+
+}
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+   .container {
+      max-width: 950px;
+   }
+   h1 {font-size: 55px;}
+   h2 {font-size: 45px;}
+   h3 {font-size: 32px;}
+   h4 {font-size: 30px;}
+
+   .page-link {
+      font-size: 14px;
+   }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+   .container {
+      max-width: 920px;
+   }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+   .container {
+      max-width: 730px;
+   }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+   h1 {font-size: 35px;}
+   h2 {font-size: 30px;}
+   h3 {font-size: 24px;}
+   h4 {font-size: 22px;}
+   h5 {font-size: 18px;}
+   h6 {font-size: 14px;}
+   body {
+      font-size: 14px;
+   }
+   p {
+      font-size: 15px;
+   }
+
+   .mb-xs-30{
+      margin-bottom: 30px;
+   }
+   .mb-xs-40{
+      margin-bottom: 40px;
+   }
+
+   .border-btn, .site-btn {
+      font-size: 14px;
+   }
+   .nice-select, input, textarea {
+      padding: 16px;
+      padding-left: 20px;
+      font-size: 15px;
+   }
+   .page-link {
+      padding: 5px 12px;
+      font-size: 14px;
+   }
+   .page-item:last-child .page-link {
+      margin-left: 15px;
+   }
+   .page-item:first-child .page-link {
+      margin-right: 15px;
+   }
+   .section-content{
+      text-align: center;
+   }
+   .analizer-table th, .analizer-table td {
+      padding: 15px;
+   }
+   .analizer-filter > * {
+      margin: 5px 0;
+      width: 100%;
+      display: block;
+   }
+   .analizer-filter > :last-child {
+      margin-left: 0;
+   }
+   .analizer-filter {
+      justify-content: center;
+   }
+   .nice-select {
+      padding: 12px;
+      font-size: 15px;
+      padding-right: 30px;
+      display: block;
+      width: 100%;
+   }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+   .container {
+      max-width: 350px;
+   }
+}
+
